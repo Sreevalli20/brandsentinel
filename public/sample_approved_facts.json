@@ -1,0 +1,79 @@
+{
+  "notice": "FICTIONAL EXAMPLE DATA — FOR DEMONSTRATION AND TESTING ONLY",
+  "description": "Fictional Approved Facts Library for BrandSentinel AI. Contains verifiable technical facts, SLA metrics, and historical expiration records for claim testing.",
+  "isFictionalData": true,
+  "exportedAt": "2026-10-24T21:00:00.000Z",
+  "factCount": 5,
+  "facts": [
+    {
+      "id": "sample_fact_privacy_1",
+      "statement": "BrandSentinel AI processes all documents 100% locally in browser memory without sending document data to external cloud servers.",
+      "subject": "Data Architecture & Privacy",
+      "sourceDocument": "Technical Architecture Whitepaper 2026",
+      "sourceSection": "Section 2.1 - Local Memory Processing Guarantee",
+      "verificationStatus": "verified",
+      "effectiveDate": "2026-01-01",
+      "expirationDate": "2028-12-31",
+      "owner": "Chief Information Security Officer",
+      "notes": "Verified by internal cybersecurity audit; confirms zero egress on document contents.",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_fact_engine_1",
+      "statement": "The deterministic rules engine supports regex, exact phrase, whole-word, and case-insensitive matching.",
+      "subject": "Engine Capabilities",
+      "sourceDocument": "Product Technical Specification v4",
+      "sourceSection": "Section 5.3 - Matching Modalities",
+      "verificationStatus": "verified",
+      "effectiveDate": "2026-01-01",
+      "expirationDate": null,
+      "owner": "Head of Engineering",
+      "notes": "Fully covered by Vitest automated test suite.",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_fact_formats_1",
+      "statement": "BrandSentinel AI extracts text client-side from plain text (.txt), Markdown (.md), PDF (.pdf via PDF.js), and Microsoft Word (.docx via Mammoth.js).",
+      "subject": "File Support & Parsing",
+      "sourceDocument": "Supported Document Matrix 2026",
+      "sourceSection": "Section 1.0 - Formats",
+      "verificationStatus": "verified",
+      "effectiveDate": "2026-01-01",
+      "expirationDate": "2027-12-31",
+      "owner": "Principal Product Manager",
+      "notes": "Image-only scanned PDFs require digital text layer; OCR limitation noted in documentation.",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_fact_perf_1",
+      "statement": "Audit rule evaluation completes in under 100 milliseconds for standard business copy under 15,000 words.",
+      "subject": "Performance Benchmarks",
+      "sourceDocument": "Performance Audit Q1 2026",
+      "sourceSection": "Table 4.2 - Workstation Benchmarks",
+      "verificationStatus": "verified",
+      "effectiveDate": "2026-01-01",
+      "expirationDate": "2027-06-30",
+      "owner": "Performance Engineering Lead",
+      "notes": "Tested on Chrome and Safari desktop runtimes.",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_fact_legacy_exp",
+      "statement": "Legacy version 1.0 supported only plain text files.",
+      "subject": "Historical Capabilities",
+      "sourceDocument": "Release Notes 1.0",
+      "sourceSection": "Archive Records",
+      "verificationStatus": "expired",
+      "effectiveDate": "2024-01-01",
+      "expirationDate": "2025-01-01",
+      "owner": "Documentation Archivist",
+      "notes": "Expired fact. Used to test the claim engine's ability to exclude expired evidence from active claims.",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2025-01-01T00:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BrandSentinel AI",
+  "description": "Every Message. On Brand. Every Time. Production-oriented brand protection, deterministic guideline rules engine, verified facts library, and pre-publication compliance auditing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

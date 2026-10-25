@@ -1,0 +1,177 @@
+{
+  "notice": "FICTIONAL EXAMPLE DATA — FOR DEMONSTRATION AND TESTING ONLY",
+  "description": "Fictional Brand Guidelines and Policy Rules for BrandSentinel AI. Contains examples for brand voice, prohibited claims, required disclaimers, and terminology.",
+  "isFictionalData": true,
+  "exportedAt": "2026-10-24T21:00:00.000Z",
+  "ruleCount": 8,
+  "rules": [
+    {
+      "id": "sample_rule_voice_1",
+      "version": 1,
+      "title": "Brand Voice: Prohibit Overpromising Superlatives",
+      "description": "BrandSentinel's tone is confident, grounded, and empirical. Never use unsubstantiated superlative marketing claims regarding absolute market dominance.",
+      "category": "voice_tone",
+      "ruleType": "prohibited",
+      "matchType": "whole_word",
+      "pattern": "best in the world",
+      "approvedAlternatives": [
+        "designed for enterprise teams",
+        "industry-tested solution",
+        "high-performance platform"
+      ],
+      "severity": "critical",
+      "sourceDocument": "Brand Governance Manual 2026",
+      "sourceSection": "Section 4.1 - Unsubstantiated Claims",
+      "active": true,
+      "exceptions": ["quoted customer review", "third-party award title"],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_voice_2",
+      "version": 1,
+      "title": "Tone & Style: Avoid Exaggerated Breakthrough Claims",
+      "description": "Prohibit using dramatic buzzwords like 'revolutionary breakthrough'. Describe empirical features and outcomes instead.",
+      "category": "voice_tone",
+      "ruleType": "prohibited",
+      "matchType": "whole_word",
+      "pattern": "revolutionary breakthrough",
+      "approvedAlternatives": [
+        "significant architectural improvement",
+        "new engineering release",
+        "enhanced capability"
+      ],
+      "severity": "medium",
+      "sourceDocument": "Editorial Style Guide",
+      "sourceSection": "Section 2.4 - Tone Discipline",
+      "active": true,
+      "exceptions": [],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_claim_1",
+      "version": 1,
+      "title": "Prohibited Claim: Absolute Bug-Free Guarantee",
+      "description": "Do not promise 100% bug-free operation or absolute guarantee without verified legal warranty endorsements.",
+      "category": "prohibited_claims",
+      "ruleType": "prohibited",
+      "matchType": "case_insensitive",
+      "pattern": "100% bug-free",
+      "approvedAlternatives": [
+        "thoroughly tested against enterprise test suites",
+        "rigorously validated and automated"
+      ],
+      "severity": "critical",
+      "sourceDocument": "Legal & Risk Governance Standards",
+      "sourceSection": "Warranty Disclaimers, Sec 3.2",
+      "active": true,
+      "exceptions": [],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_claim_2",
+      "version": 1,
+      "title": "Prohibited Claim: Unaccredited #1 Platform Claim",
+      "description": "Prohibit claiming '#1 platform' or 'world-leading' unless citing an accredited independent industry benchmark report.",
+      "category": "prohibited_claims",
+      "ruleType": "prohibited",
+      "matchType": "whole_word",
+      "pattern": "#1 platform",
+      "approvedAlternatives": [
+        "enterprise-grade compliance solution",
+        "production-tested brand protection platform"
+      ],
+      "severity": "critical",
+      "sourceDocument": "Fair Advertising & Substantiation Manual",
+      "sourceSection": "Section 1.2 - Comparative Claims",
+      "active": true,
+      "exceptions": ["Gartner Peer Insights badge", "verified award quotation"],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_term_1",
+      "version": 1,
+      "title": "Brand Terminology: Exact Brand Casing 'BrandSentinel AI'",
+      "description": "Always capitalize as 'BrandSentinel AI' in CamelCase. Never write 'Brand Sentinel' as two words or all lowercase 'brandsentinel'.",
+      "category": "terminology",
+      "ruleType": "prohibited",
+      "matchType": "exact",
+      "pattern": "Brand Sentinel",
+      "approvedAlternatives": [
+        "BrandSentinel AI"
+      ],
+      "severity": "medium",
+      "sourceDocument": "Identity & Trademark Standards",
+      "sourceSection": "Section 1.1 - Corporate Nomenclature",
+      "active": true,
+      "exceptions": [],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_term_2",
+      "version": 1,
+      "title": "Brand Terminology: Preferred Term 'Workspace' over 'Control Room'",
+      "description": "Refer to the brand compliance interface as a 'workspace' or 'governance portal' rather than 'control room' or 'cockpit'.",
+      "category": "terminology",
+      "ruleType": "preferred",
+      "matchType": "whole_word",
+      "pattern": "control room",
+      "approvedAlternatives": [
+        "compliance workspace",
+        "governance portal"
+      ],
+      "severity": "low",
+      "sourceDocument": "Brand Tone & Product Nomenclature",
+      "sourceSection": "UI Terminology Dictionary",
+      "active": true,
+      "exceptions": [],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_term_3",
+      "version": 1,
+      "title": "Brand Terminology: Use 'Deterministic Engine' not 'Black Box AI'",
+      "description": "To maintain customer trust in audit transparency, refer to rule matching as 'deterministic engine' rather than 'black box AI'.",
+      "category": "terminology",
+      "ruleType": "preferred",
+      "matchType": "whole_word",
+      "pattern": "black box AI",
+      "approvedAlternatives": [
+        "deterministic rules engine",
+        "transparent rule evaluation"
+      ],
+      "severity": "medium",
+      "sourceDocument": "Technical Marketing Standards",
+      "sourceSection": "Section 3.1 - Architecture Terminology",
+      "active": true,
+      "exceptions": [],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "sample_rule_req_1",
+      "version": 1,
+      "title": "Required Legal Disclaimer: Performance Footnote",
+      "description": "Any marketing document or announcement referencing performance metrics must include the mandatory variation disclaimer.",
+      "category": "required_disclaimers",
+      "ruleType": "required",
+      "matchType": "case_insensitive",
+      "pattern": "Results may vary based on local workstation specifications.",
+      "approvedAlternatives": [
+        "Results may vary based on local workstation specifications."
+      ],
+      "severity": "high",
+      "sourceDocument": "Legal Compliance Playbook 2026",
+      "sourceSection": "Mandatory Disclaimers, Sec 5.2",
+      "active": true,
+      "exceptions": ["social media posts under 280 characters"],
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-01-01T00:00:00.000Z"
+    }
+  ]
+}
